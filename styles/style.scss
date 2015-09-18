@@ -1,0 +1,173 @@
+body {
+  font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
+  width: 100%;
+  padding: 0 !important;
+  margin: 0;
+  top: 0 !important;
+}
+
+.page-wrap {
+  margin: 20px;
+  padding: 10px;
+}
+
+.clearfix {
+  clear: both;
+  overflow: hidden;
+}
+
+h1, span {
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.cont0, .cont1, .cont2, .cont3, .cont4 {
+  width: 100% !important;
+}
+
+.cont0 {
+  top: 0;
+  text-align: center;
+padding: 15px;
+
+}
+.cont1 {
+  height: 30vw;
+  color: #fff;
+  text-align: center;
+span {
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+  }
+
+  background: -webkit-linear-gradient(90deg, #C04848 10%, #480048 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #C04848 10%, #480048 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #C04848 10%, #480048 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #C04848 10%, #480048 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #C04848 10%, #480048 90%); /* W3C */
+
+}
+
+.cont2 {
+  background-color: #fff;
+  color: #333;
+  width: 100%;
+  height: auto;
+  h2, h3 {
+    text-align: center;
+  }
+}
+
+.cont3 {
+  background-color: gold;
+  display: inline-block;
+  min-height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  color: #444;
+}
+
+.cont4 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 75px;
+  position: relative;
+  display: inline-block;
+  background: -webkit-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #5f2c82 10%, #49a09d 90%); /* W3C */
+}
+
+
+.col1, .col2 {
+  float: left;
+  span {
+    float: left;
+    line-height: 2;
+  }
+}
+.col1 {
+  margin-right: 100px;
+}
+
+.content {
+  margin: 0 auto;
+  width: 45%;
+  position: relative;
+  height: auto;
+  padding: 25px;
+}
+
+.copyright {
+  a, span {
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+  }
+
+  bottom: 0;
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+}
+
+
+.fa-check-circle-o {
+  margin-right: 20px;
+}
+
+// MAILCHIMPER
+#mc_embed_signup {
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  background: transparent;
+  width:350px;
+
+  label {
+    font-size: 18px;
+    color: #5f2c82;
+  }
+
+  input {
+    border-radius: 3px;
+    border: 1px dotted #d0d0d0;
+  }
+
+  td {
+    padding: 10px;
+  }
+
+  .mc-button {
+    padding: 10px;
+    border-radius: 3px;
+    border: 3px solid #5f2c82;
+    background-color: gold;
+    color: #5f2c82;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+  }
+
+}
