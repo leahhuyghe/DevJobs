@@ -1,9 +1,16 @@
+@media screen and (max-width: 2400px) {
+  body, .cont0, .cont1, .cont2, .cont3, .cont4, .copyright {
+    float: none;
+    width: 100%;
+  }
+}
+
 body {
   font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
   width: 100%;
-  padding: 0 !important;
+  padding: 0;
   margin: 0;
-  top: 0 !important;
+  top: 0;
 }
 
 .page-wrap {
@@ -16,18 +23,14 @@ body {
   overflow: hidden;
 }
 
-h1, span {
-  font-size: 18px;
+ span {
+  font-size: 17px;
   text-align: center;
   line-height: 2;
 }
 
-h1 {
-  font-size: 100px;
-  text-align: center;
-}
 
-h2 {
+h1, h2 {
   font-size: 35px;
   text-align: center;
 }
@@ -36,20 +39,17 @@ li {
   list-style: none;
 }
 
-.cont0, .cont1, .cont2, .cont3, .cont4 {
-  width: 100% !important;
-}
-
 .cont0 {
   top: 0;
   text-align: center;
-padding: 15px;
+  padding: 15px;
 
 }
 .cont1 {
   height: 30vw;
   color: #fff;
   text-align: center;
+  display: table;
 span {
     vertical-align: middle;
     display: inline-block;
@@ -80,8 +80,10 @@ span {
   min-height: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 100%;
   color: #444;
+    h1 {
+      color: #5f2c82;
+    }
 }
 
 .cont4 {
@@ -143,8 +145,9 @@ span {
   background: transparent;
   width:350px;
 
+
   label {
-    font-size: 18px;
+    font-size: 17px;
     color: #5f2c82;
   }
 

@@ -1,9 +1,13 @@
+@media screen and (max-width: 2400px) {
+  body, .cont0, .cont1, .cont2, .cont3, .cont4, .copyright {
+    float: none;
+    width: 100%; } }
 body {
   font-family: 'Lato', 'Helvetica', 'Arial', sans-serif;
   width: 100%;
-  padding: 0 !important;
+  padding: 0;
   margin: 0;
-  top: 0 !important; }
+  top: 0; }
 
 .page-wrap {
   margin: 20px;
@@ -13,24 +17,17 @@ body {
   clear: both;
   overflow: hidden; }
 
-h1, span {
-  font-size: 18px;
+span {
+  font-size: 17px;
   text-align: center;
   line-height: 2; }
 
-h1 {
-  font-size: 100px;
-  text-align: center; }
-
-h2 {
+h1, h2 {
   font-size: 35px;
   text-align: center; }
 
 li {
   list-style: none; }
-
-.cont0, .cont1, .cont2, .cont3, .cont4 {
-  width: 100% !important; }
 
 .cont0 {
   top: 0;
@@ -41,6 +38,7 @@ li {
   height: 30vw;
   color: #fff;
   text-align: center;
+  display: table;
   background: -webkit-linear-gradient(90deg, #C04848 10%, #480048 90%);
   /* Chrome 10+, Saf5.1+ */
   background: -moz-linear-gradient(90deg, #C04848 10%, #480048 90%);
@@ -70,8 +68,9 @@ li {
   min-height: auto;
   padding-top: 50px;
   padding-bottom: 50px;
-  width: 100%;
   color: #444; }
+  .cont3 h1 {
+    color: #5f2c82; }
 
 .cont4 {
   color: #fff;
@@ -126,7 +125,7 @@ li {
   background: transparent;
   width: 350px; }
   #mc_embed_signup label {
-    font-size: 18px;
+    font-size: 17px;
     color: #5f2c82; }
   #mc_embed_signup input {
     border-radius: 3px;
